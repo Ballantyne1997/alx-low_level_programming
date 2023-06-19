@@ -1,0 +1,9 @@
+f (n == 57);
+      |               ^
+9-print_comb.c:14:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   14 |   if (n == 57);
+      |   ^~
+9-print_comb.c:15:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   15 |   {
+      |   ^
+cc1: all warnings being treated as errorsi
