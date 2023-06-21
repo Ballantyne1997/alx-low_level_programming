@@ -1,11 +1,10 @@
-include "main.h"
-
+#include "main.h"
 /**
  * main - Entry point
+ * Description: 'prits _putchar to stdout'
  * Return: Always 0
  */
-
-int main(void)
+int mai(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -15,6 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n')
+	_putchar('\n');
 	return (0);
 }
